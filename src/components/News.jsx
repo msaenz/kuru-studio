@@ -1,13 +1,15 @@
 import React from 'react'
-import './styles/News.scss'
+// import "./styles/NewsItem.scss";
+import "./styles/News.scss";
+
 
 const News = ({children, title}) => (
-  <section className='news'>
+  <div className='news'>
     <h1>{title}</h1>
-    <div className='news_container'>
+    <div className='news__container'>
       {children}
     </div>
-  </section>
+  </div >
 )
 
 export default News

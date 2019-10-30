@@ -16,11 +16,11 @@
 }
 
 .news__container:hover .news-item {
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .news__container:hover .news-item:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
   opacity: 1;
 }

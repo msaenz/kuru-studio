@@ -1,14 +1,9 @@
-.container__category {
+.category {
+  outline: 1px solid rgb(50, 66, 48);
   display: flex;
-  height: inherit; 
-  flex-direction: row;
-  justify-content: space-around;
-  height: inherit;
-}
-aside {
-  width: 20%;
-  outline: 1px solid rgb(24, 207, 7);  
-}
-aside ul {
-  margin: 1em 2em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  grid-row-gap: 1.5em;
+  display: grid;
+  padding: 1em 2em;
 }

@@ -1,10 +1,9 @@
-.category {
-  outline: 1px solid rgb(50, 66, 48);
-  display: flex;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.5rem;
-  grid-row-gap: 1.5em;
-  display: grid;
-  padding: 1em 2em;
-  width: 100%;
+.Card {
+  text-decoration: none;
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  border-radius: 5px;
+  margin: 20px 0;
+  display: block;
+  animation-duration: 4s;
+  animation-name: fade;
 }

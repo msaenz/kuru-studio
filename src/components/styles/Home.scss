@@ -1,9 +1,29 @@
 .container {
+  outline: 1px solid red;
   display: flex;
   height: inherit;
   flex-direction: column;
   justify-content: space-around;
   padding: 1em 2em;
+}
+
+
+.category {
+  outline: 1px solid rgb(50, 66, 48);
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  grid-row-gap: 1.5em;
+  display: grid;
+  padding: 1em 2em;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 5px;
+  padding:  2em;
 }
 
 a {
@@ -16,38 +36,12 @@ a {
   color: white;
 }
 
-video {
-  width: 430px;
-  height: 280px;
-  border: 1px solid black;
-  padding: 0;
-  margin: 0;
-  /* width: 427px;
-  height: 240px; */
-  background-color: black;
-  margin: auto;
-  float: left;
-  /* object-fit: contain; */
-}
-
-video:hover .Player-back {
+h2 {
   display: block;
-}
-
-.Player-back {
-  position: fixed;
-  top: 5px;
-  left: 5px;
-  font-size: 12px;
-}
-
-.Player-back button {
-  text-decoration: none;
-  color: white;
-  background: rgba(0, 0, 0, .3);
-  padding: 5px;
-  border-radius: 5px;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
