@@ -1,11 +1,12 @@
 import React from "react";
-import "./styles/Category.scss";
 import { connect } from "react-redux";
 import Card from "../components/Card";
 import ProductsItem from "../components/ProductsItem";
 import Categories from "../components/Categories";
 import Offers from "../components/Offers";
-import AsideNav from "../components/AsideNav"
+import AsideNav from "../components/AsideNav";
+import itemimage from "../assets/static/events.jpg";
+import "./styles/Category.scss";
 
 const Category = ({ categories, offers }) => {
   return (
@@ -15,8 +16,10 @@ const Category = ({ categories, offers }) => {
         
         <Categories title="Categorias">
           {categories.map(item => (
-            <Card key={item.id} category={item.category} image={item.image} />
+            <Card key={item.id} category={item.category} image={itemimage} />
           ))}
+          {/* <Card key={item.id} category={item.category} image={itemimage} /> */}
+
         </Categories>
       </div>
 

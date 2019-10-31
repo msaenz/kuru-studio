@@ -11,11 +11,13 @@ class Header extends React.Component {
     return (
       <header className="header">
         <div className="header__content">
+        <Link to={`/`}>
           <img
             className="header__content-logo"
             src={logo}
             alt="Logo e-commerce"
           />
+          </Link>
           <div className="header__content__search">
             <input
               className="header__content__search--input"
