@@ -12,6 +12,7 @@
   -webkit-transform-origin: center left;
   position: relative;
   font-size: 20px;
+  justify-self: center;
 }
 
 .news-item:hover ~ .news-item {

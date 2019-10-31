@@ -2,10 +2,13 @@ import React from 'react'
 import './styles/Categories.scss'
 
 const Categories = ({children, title}) => (
+  <div>
+  <h1>{title}</h1>
   <div className='category'>
-    <h1>{title}</h1>
     {children}
   </div>
+
+</div>
 )
 
 export default Categories

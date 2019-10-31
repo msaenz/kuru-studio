@@ -5,7 +5,7 @@ import ProductsItem from "../components/ProductsItem";
 import Categories from "../components/Categories";
 import Offers from "../components/Offers";
 import AsideNav from "../components/AsideNav";
-import itemimage from "../assets/static/events.jpg";
+// import itemimage from "../assets/static/events.jpg";
 import "./styles/Category.scss";
 
 const Category = ({ categories, offers }) => {
@@ -16,7 +16,7 @@ const Category = ({ categories, offers }) => {
         
         <Categories title="Categorias">
           {categories.map(item => (
-            <Card key={item.id} category={item.category} image={itemimage} />
+            <Card key={item.id} category={item.category} image={item.image} />
           ))}
           {/* <Card key={item.id} category={item.category} image={itemimage} /> */}
 

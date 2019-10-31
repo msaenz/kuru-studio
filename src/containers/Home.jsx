@@ -11,6 +11,8 @@ import ProductsItem from "../components/ProductsItem";
 
 
 const Home = ({ news, categories, offers, products }) => {
+    
+
   return (
     <>
       <div className="container">
