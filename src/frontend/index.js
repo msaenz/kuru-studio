@@ -6,6 +6,8 @@ import reducer from "./reducers";
 import "./index.css";
 import App from "./routes/App";
 import * as serviceWorker from "./serviceWorker";
+import evokando from "./assets/covers/evokando.jpg"
+//revisar url-loader
 
 const initialState = {
   news: [
@@ -15,7 +17,7 @@ const initialState = {
       subtitle: "Banda de Regge Music",
       autor: "Daniel M",
       active: true,
-      cover: "./src/assets/covers/evokando.jpg",
+      cover: evokando,
       source: "evokando.pdf",
       type: "Banner"
     },
