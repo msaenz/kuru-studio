@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import "../index.css";
+import "../assets/styles/index.scss" 
 import "../components/styles/Home.scss";
 import News from "../components/News";
 import NewsItem from "../components/NewsItem";
@@ -8,7 +8,6 @@ import Categories from "../components/Categories";
 import Offers from "../components/Offers";
 import Card from "../components/Card";
 import ProductsItem from "../components/ProductsItem";
-
 
 const Home = ({ news, categories, offers, products }) => {
   return (

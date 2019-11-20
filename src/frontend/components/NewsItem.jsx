@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import playIcon from "../../src/assets/static/play-icon.png";
+import playIcon from "../assets/static/play-icon.png";
 import "./styles/NewsItem.scss";
 
 const NewsItem = props => {
